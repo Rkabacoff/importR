@@ -22,7 +22,11 @@ delimited text files, EXCEL spreadsheets, and
 statistical packages such as SAS, SPSS, and Stata.
 }
 \details{
-put detail in here!
+The \code{import} function is wrapper for the
+\href{https://haven.tidyverse.org/}{haven},
+\href{https://readxl.tidyverse.org/}{readxl},
+and \href{https://github.com/r-lib/vroom}{vroom}
+packages.
 }
 \examples{
 \dontrun{
@@ -38,4 +42,11 @@ mydataframe <- import("mydata.xlsx", sheet = 2)
 # prompt for a file to import
 mydataframe <- import()
 }
+}
+\seealso{
+\link[haven]{read_sas},
+\link[haven]{read_dta},
+\link[haven]{read_spss},
+\link[readxl]{read_excel},
+\link[vroom]{vroom}
 }
