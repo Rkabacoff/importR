@@ -1,6 +1,6 @@
 # importR
 
-<img src="tools.jpg" width = "200" />
+<img src="tools.jpg" width="200"/>
 
 The goal of importR is to create an R data frame from external data in SAS, SPSS, or Stata binary files, Excel Workbooks, or delimited text files.
 
