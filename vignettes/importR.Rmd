@@ -1,0 +1,24 @@
+---
+title: "How to import data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to import data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Welcome to a great time
+
+```{r setup}
+library(importR)
+```
+
+Using this package will make you a better person. More attractive, more desired, wealthier.
+
